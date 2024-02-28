@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        button {
+            padding: 0.5rem;
+            width: 20rem;
+            border: 0;
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            filter: brightness(0.8);
+        }
+
+        button:active {
+            background-color: red;
+        }
+
+        .btn-1 {
+            background-color: lawngreen;
+        }
+
+        .btn-2 {
+            background-color: goldenrod;
+        }
+
+        .btn-3 {
+            background-color: lightgreen;
+        }
+
+        .btn-4 {
+            background-color: indigo;
+            color: white;
+        }
+
+        .btn-4:hover {
+            filter: brightness(1.4);
+        }
+
+        .btn-5 {
+            background-color: tomato;
+        }
     </style>
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <section></section>
-    <footer></footer>
+    <div>
+        <button class="btn-1">button 1</button>
+        <button class="btn-2">button 2</button>
+        <button class="btn-3">button 3</button>
+        <button class="btn-4">button 4</button>
+        <button class="btn-5">button 5</button>
+    </div>
 </body>
+
 </html>
